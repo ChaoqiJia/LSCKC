@@ -18,11 +18,11 @@ To execute the algorithm:
 1. **Compile the Java class**  
    ```
    javac addConstraints/OutPut.java
- ```
+   ```
 
 2. **Run the program**
 
-   ```bash
+   ```
    java addConstraints.OutPut
    ```
 
