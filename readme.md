@@ -16,9 +16,9 @@
 To execute the algorithm:
 
 1. **Compile the Java class**  
-   ```bash
+   ```
    javac addConstraints/OutPut.java
-
+ ```
 
 2. **Run the program**
 
