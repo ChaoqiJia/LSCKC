@@ -141,9 +141,6 @@ public class LS_kCenter {
             } else if (centers.size() == k) {
                 flag = judgeCannot(R);
             }
-            System.out.println(Rmax);
-            System.out.println(Rmin);
-            System.out.println(R);
 
             if (flag) {
                 Rmax = R;
@@ -158,9 +155,6 @@ public class LS_kCenter {
             getKPoint(centers, Dist_Points);
         }
 
-//        for (int i = 0; i < centers.size(); i++) {
-//            System.out.println(centers.get(i));
-//        }
         setClusterIDs(centers);
         updateMLinCenter(centers);
         assignMust(centers);
@@ -350,10 +344,6 @@ public class LS_kCenter {
                         inR = inRmax;
                         inRmin = inRmax;
                     }
-                    System.out.println("int");
-                    System.out.println(inR);
-                    System.out.println(inRmax);
-                    System.out.println(inRmin);
                     if (judgeCannotOnce(inR, pointsLeft, pointsRight)) {
                         inRmax = inR;
                         conditionMet = true;
