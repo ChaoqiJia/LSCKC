@@ -34,7 +34,6 @@ To execute the algorithm:
 int[] k_vary = {10}; //number of clusters
 double[] c = {0.1}; //constraint ratios
 double[] c1 = {0.0}; //repetition ratios
-// ...
 ```
 
 The final results will be saved in `/Results/cnae/`.
