@@ -32,7 +32,7 @@ public class OutPut {
         String inputFilename = "cnae";
         // default outputFilename
         String[] outputFilename = {
-                "Results_vk/skin/" + inputFilename + "_LS_output",
+                "Results/cnae/" + inputFilename + "_LS_output",
         };
 
         int[] k_vary = { 30};
